@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+
+    <title>Personalizador</title>
+</head>
+<body>
+    <div class="pagina" id="pagina">
+      <div class="esquerda">
+        <div class="acabamentos" id="acabamentos">
+            <h2>Acabamentos</h2>
+            <div class="delete">
+              <input type="button" class="deleteb" id="deleteb" style="display: none;">
+              <label for="deleteb" id="deletelabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+            <div class="divisao"></div>
+            <div class="optcontainer">
+            <div class="opcoes">
+            <form>
+                <div class="base"><div style="position:absolute ;"><img src="polo_masculino.svg" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="base" checked><label for="base">
+                    <span id="CB" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>  Base </div>
+                <div class="botoes"><div style="position:absolute ;"><img src="botoes.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="botoes"><label for="botoes">
+                    <span id="BT" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>  Botões</div>
+                <div class="gola1"><div style="position:absolute ;"><img src="gola.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="gola1"><label for="gola1">
+                    <span id="ge" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>  Gola Externa</div><!--Gola Exterior-->
+                <div class="gola2"><div style="position:absolute ;"><img src="carcela.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="gola2"><label for="gola2">
+                    <span id="gi" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Gola Interna</div><!--Gola Interior-->
+                  <div class="punho"><div style="position:absolute ;"><img src="punho.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="punho"><label for="punho">
+                    <span id="PU" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Punho</div><!--Punho-->
+                  <div class="vista"><div style="position:absolute ;"><img src="manga.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="vista"><label for="vista">
+                    <span id="VE" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Manga</div><!--Manga-->
+                  <div class="vista1"><div style="position:absolute ;"><img src="peitilho1.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op7" id="vista1"><label for="vista1" >
+                    <span id="VD" style="margin-left:30px ;">
+                      <img src="check-icn.svg" alt="Checked Icon" />
+                    </span>
+                  </label>Carcela 1</div><!--Peitilho 1-->
+                        <div class="bolsoblusa"><div style="position:absolute ;"><img src="peitilho2.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op8" id="bolsobtn"><label for="bolsobtn">
+                            <span id="BSF" style="margin-left:30px ;">
+                              <img src="check-icn.svg" alt="Checked Icon" />
+                            </span>
+                          </label>Carcela 2</div><!--Peitilho 2-->
+                          <div class="bolsoblusa1" style="display: none;"><div style="position:absolute ;"><img src="friso.png" alt="" width="25px"></div><INPUT TYPE="radio" NAME="OPCAO" VALUE="op9" id="bolso1"><label for="bolso1">
+                            <span id="BB" style="margin-left:30px ;">
+                              <img src="check-icn.svg" alt="Checked Icon" />
+                            </span>
+                          </label>Friso</div><!--Friso-->
+                            <div class="switch__container">
+                                <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                                <label for="switch-shadow"></label>
+                              </div>
+                              <div class="textobolso" style="padding-left: 8px;padding-top:3px ;">Bolso</div><br>
+                              <div class="switch__container3">
+                                <input id="switch-shadow3" class="switch switch--shadow3" type="checkbox">
+                                <label for="switch-shadow3"></label>
+                              </div>
+                              <div class="textobolso" style="padding-left: 8px;padding-top:3px ;">Manga</div>
+                              
+                    </form></div></div>
+        </div>
+      
+        <button class="download" id="download">Download</button>
+   
+      
+      </div>
+    <div class="social_masculino" id="social_masculino">
+<div class="frente" id="frente">
+  
+    <div class="frente1">
+      <svg version="1.1" id="molde_polo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="371.92px" height="480px" viewBox="0 0 371.92 480" enable-background="new 0 0 371.92 480" xml:space="preserve">		
+     <path fill="#fff" id="corbase" d="M171,479.9c-2,0-4,0-6,0c-1.2-1-2.7-0.3-4-0.5c-0.9,0-1.8,0-2.8,0c-1.1,0.1-2.3-0.4-3.3,0.5c-2,0-4,0-6,0
+     c-8.7-1-17.5-0.5-26.3-1c-14.2-0.7-28.2-2.3-41.7-7c-2-0.7-4.1-1.5-6-2.5c-5.2-2.8-7.2-6.1-6-11.8c5.1-25.6,6.5-51.8,11.9-77.5
+     c1.6-7.7,1.9-15.9,0.6-23.8c-0.8-4.8-1-9.6-1-14.4c0-16.3,0-32.6,0-48.9c0.1-28.5-2.5-56.8-6.4-85c-0.8-5.8-1.6-11.6-2-17.3
+     c-1.6-21.2-10.7-40.4-16.6-60.5C50.1,111,43.2,92.2,39,72.6c-1.3-6.2-1-7.4,4.2-10.8c4.5-2.9,9.3-5.2,14.2-7.2
+     c19.5-7.8,38.8-15.9,59-21.7c3.2-0.9,5.4-3.1,7.3-5.7c1.5-2,2.6-4.3,3.5-6.6c4.6-11.5,13.4-17.3,25.5-18.9
+     c5.7-0.8,11.6-0.6,17.3-1.6c7.7,0,15.3,0,23,0c0.7,0.6,1.3,0.6,2,0c1.3,0,2.7,0,4,0c6.9,1.1,13.9,0.6,20.8,1.4
+     c8.3,1,14.8,4.7,19.8,11.3c2.9,3.7,5.2,7.7,7.6,11.7c2.8,4.8,6.6,8.1,12,10c17,5.9,34,11.8,50.8,18.2c5.8,2.2,11.4,4.7,16.8,7.7
+     c4.8,2.7,5.8,4.7,4.9,10.2c-2.6,17.2-8.5,33.6-13,50.3c-2.5,9-5.1,17.9-8.7,26.5c-7.4,17.6-9.2,36.4-11.4,55.1
+     c-1.8,15.5-4.3,31-5.7,46.6c-0.5,5.6-1.3,11.3-1.2,16.9c0.4,21.2-1.7,42.2-1.1,63.4c0.2,5.4-0.9,10.6-1.1,15.9
+     c-0.6,20.2,2,40.2,5.6,60c3.2,17.5,4.9,35.3,8.1,52.8c1,5.3-1.1,9-5.8,11.5c-9.7,5.2-20.3,7.4-31.1,8.6c-9.6,1.1-19.2,1.2-28.9,1.1
+     c-1.8,0-3.7-0.5-5.4,0.5c-0.7,0-1.3,0-2,0c-0.8-0.8-1.9-0.4-2.8-0.5c-0.8,0-1.6-0.2-2.2,0.5c-1.7,0-3.3,0-5,0
+     c-1.7-1.1-3.6-0.3-5.4-0.5c-1.6,0-3.3,0-4.9,0c-3.9,0.3-7.8-0.6-11.7,0.5c-3.3,0-6.7,0-10,0c-2.6-1.1-5.4-0.2-8.1-0.5
+     C177,479.7,173.9,478.8,171,479.9z"/>
+   </svg>
+    </div>
+    <div class="frente2">
+      <svg version="1.1" class="detalhes_polo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+      width="371.92px" height="480px" viewBox="0 0 371.92 480" enable-background="new 0 0 371.92 480" xml:space="preserve">
+      <g class="manga" fill="#fff" id="manga">
+        <path d="M39.1,66.6L39.1,66.6c-7.4,7.2-24.6,28.4-31.9,74.6l-6.8,57.1c0,0-1.5,2.4,1.5,4.4
+        c3.1,2,35.2,15.6,56.8,12.2c0,0,9.3,0,9.4-5L69,194c0,0,3.8-5.6,1.3-19.2c0,0-1.5-6.1-1.1-8.2c-5.5-15.2-17.7-55.2-21.5-66.7
+        C43.8,87.1,41,75.9,39.1,66.6z"/>
+        <path d="M302.7,168c0.1,0.1-3.1,12.8-2.4,19.4c0,0,1,5.7,2.4,7l0.7,15c0,0-0.5,5.6,9.4,6.1c0,0,11.6,1.5,32.6-3.3
+        c0,0,14.2-4,25.3-9.4c0,0,1.8-0.6,0.9-3.9c-1-3.3-2.2-16.6-2.2-16.6s-5.7-53-9.4-65.6c-3.7-12.6-14.9-40-26.4-49.3
+        c0,0-0.5-1-2.9-2.9c-0.6,11.1-4.3,23.5-4.3,23.5L312.4,137c-8.1,19-10,28.7-10.5,30.8c0.1,0.1,0.1,0.2,0.2,0.2l0.2-0.7
+        C302.3,167.4,302.6,168,302.7,168z"/>
+      </g>
+      <g class="friso" fill="#fff00000" id="friso">
+        <path d="M59.5,198.9c0,0-19.1,1.1-37.6-5.2c-12-4.1-17.6-7.6-20.1-9.5l-1.4,11.3c0,0-0.7,1.1-0.2,2.4l1.3-10.7
+        c2.5,1.9,8,5.4,20.1,9.5c18.5,6.3,37.6,5.2,37.6,5.2s7.4-0.3,9.4-3.4l-0.5,9.4c0.1-0.3,0.2-0.6,0.2-1l0.6-11.4
+        C67,198.6,59.5,198.9,59.5,198.9z"/>
+        <path d="M303.3,207.8l-0.4-9c1,1.2,3.2,2.9,7.9,3.3c7.8,0.7,17-0.1,31.9-3.1c0,0,13.8-2.4,27.2-11
+        c0.4,3.8,1,8.6,1.5,10.7c0.2-0.6,0.2-1.4-0.2-2.7c-0.6-1.9-1.2-7-1.6-11c-13.5,8.6-27.2,11-27.2,11c-14.9,2.9-24.1,3.8-31.9,3.1
+        c-4.7-0.4-6.9-2.1-7.9-3.3l0.5,10.7C303.1,206.6,303.1,207.1,303.3,207.8z"/>
+      </g>
+      <g class="punho" id="punho2" fill="#fff">
+        <path d="M302.974,198.872l0.459,10.703c0,0-0.477,5.615,9.402,6.11c0,0,11.596,1.524,32.576-3.278c0,0,14.201-4.041,25.352-9.386
+        c0,0,1.844-0.587,0.877-3.911c-0.572-1.895-1.193-6.999-1.641-11.041c-13.455,8.639-27.215,11.041-27.215,11.041
+        c-14.871,2.942-24.096,3.752-31.908,3.054C306.216,201.734,304.005,200.11,302.974,198.872z"/>
+        <path d="M1.652,187.166l-1.353,11.277c0,0-1.526,2.404,1.544,4.374c3.054,1.955,35.182,15.587,56.816,12.217
+        c0,0,9.289,0,9.399-5.026l0.621-11.421c-1.957,3.054-9.369,3.356-9.369,3.356s-19.118,1.08-37.586-5.233
+        C9.686,192.588,4.103,189.09,1.652,187.166z"/>
+      </g>
+      <g class="golas">
+        <path class="fundo_gola" fill="#fff00000" d="M137.434,18.933v58.025l28.32-1.75c0,0,22.572,21.225,23.556,21.225l49.471-36.365V19.331L137.434,18.933z"/>
+        <path class="gola" fill="#fff" id="golaE" d="M264.099,94.609c0,0-0.221-37.062-10.688-60.616l-6.141-5.695c0,0-8.846-21.489-22.729-24.654
+        c0,0-38.906-7.747-71.02-0.651c0,0-18.912,0.333-25.147,18.323c0,0-3.26,8.955-8.081,11.818c-1.59,5.025-3.419,13.153-3.722,24.4
+        c-0.54,20.391,2.195,35.772,2.195,35.772l0.43,0.651l8.526-4.58c0,0,21.856-10.91,34.31-13.09l2.623-0.429l1.097-0.652
+        c0,0-2.736-3.499-2.848-3.721c-0.095-0.207-3.483-2.609-3.483-2.609s-6.998-6.044-12.819-16.541
+        c-3.563-6.442-6.553-19.087-5.965-21.377l0.302-3.277l27.66-1.782l30.377-0.222l32.783,1.971c0,0,2.689,8.716-2.846,25.083
+        c0,0-3.42,9.083-6.557,12.646c-3.133,3.563-3.941,4.74-4.818,9.83v7.633c0,0,24.988,4.136,45.906,12.422L264.099,94.609z"/>
+        <path class="gola_2" id="golaI" fill="#fff" d="M224.983,31.782c0,0,4.695,0.064,7.367,0.047c-0.16-2.767-0.59-4.182-0.59-4.182l-32.783-1.971l-30.377,0.222
+        l-28.423,1.75l-0.207,2.402c-0.096,0.397-0.127,0.906-0.112,1.495l32.45-0.416C172.308,31.128,216.89,30.971,224.983,31.782z"/>
+        <path class="gola_3" id="peitilho1" fill="#fff" d="M159.853,69.304l4.151,6.33c4.739,7.125,5.472,23.048,10.052,29.521c2.004,2.815,1.035,8.034,1.098,8.145
+        c0.047,0.112,0,19.707,0,19.707v29.49c0.381-8.557,0.874-20.216,0.874-23.382c0-5.168,0.875-22.681,0.875-22.681
+        c0.731-4.471,2.465-9.354,3.706-12.87c0.844-2.386,5.947-6.966,9.18-9.718l-0.211,0.111l-0.441-0.874
+        c0,0-7.206-9.895-10.704-12.868c-3.5-2.975-5.663-3.594-8.956-4.803c-3.309-1.192-5.901-3.929-5.901-3.929L159.853,69.304z
+        M192.489,91.57l-0.777,0.684l0.777-0.621V91.57z"/>
+        <path class="gola_4" id="peitilho2" fill="#fff" d="M175.155,162.496v13.918c0.063,3.197,1.097,2.623,1.097,2.623h18.133c1.461-0.223,1.525-1.305,1.525-1.305
+        s0.143-33.894,0.445-59.344c0.287-25.451,5.455-28.79,5.455-28.79c8.303-2.353,14.648-2.402,14.648-2.402l0.227-0.445l0.857-4.135
+        v-8.081c0.127-4.087,5.043-9.591,5.043-9.591l-1.324,0.875l-2.176,2.608l-2.4,2.625l-0.879,0.651
+        c-1.35,0.605-1.748,1.527-1.748,1.527l-0.879,1.303c-2.385,0.987-4.371,3.499-4.371,3.499l-3.277,2.402
+        c-4.533,3.771-9.959,8.446-13.043,11.135v0.063l-0.777,0.62l-1.701,1.479l-0.225,0.112c-3.229,2.752-8.333,7.332-9.177,9.718
+        c-1.241,3.515-2.975,8.399-3.706,12.87c0,0-0.875,17.513-0.875,22.681C176.027,142.28,175.534,153.938,175.155,162.496z"/>
+      </g>
+      <g class="botao" fill="#fff" id="botao">
+        <path d="M169.903,80.214c0,0-2.003,1.78-1.303,3.276c0.684,1.48,1.448,2.72,3.707,3.708
+        c2.257,0.985,3.07,0.223,3.07,0.223l1.305-1.75c0,0,0.62-1.161-0.431-2.402C175.188,82.027,173.038,79.165,169.903,80.214z"/>
+        <path d="M186.081,105.298c0,0-3.102,2.656-1.32,5.678c1.796,3.022,4.373,2.609,4.373,2.609
+        s1.893-0.541,2.404-1.306c0,0,3.068-2.147,0-6.331C191.536,105.95,189.722,103.518,186.081,105.298z"/>
+        <path d="M184.553,138.019c0,0-4.199,3.1-1.526,6.981c0,0,2.179,2.18,5.454,1.32c0,0,3.469-1.431,2.18-5.899
+        C190.661,140.418,189.644,136.602,184.553,138.019z"/>
+      </g>
+    </svg>
+
+    </div>
+    
+    <div class="frente6" style="display: none;">
+      <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="372px" viewBox="0 0 372 480" style="enable-background:new 0 0 372 480;" xml:space="preserve">
+<g class="manga" fill="#fff">
+  <path d="M368.9,299c0.4,6.4,0.7,12.8,1.1,19.3c0.1,1.5,0.3,3,1.9,3.7c0,50,0,100,0,149.9c-6.2,5.3-12.9,2.6-19.2,0.9
+  c-4.2-1.1-7.8-4.1-12.2-5.2c-2.1-0.5-1.5-2.3-1.8-3.6c-1.2-2.5-1-5.4-1.8-8.1c0.3-2.2-0.4-4.3-1-6.3c-5-17.2-3.7-35.1-6.1-52.6
+  c-1.5-10.4-4-20.7-6.2-31c-2.3-11-3.7-22.3-7.1-32.9c-3.6-11.2-4.1-23.2-8.8-34.2c-2.5-5.8-3.4-12.3-4.8-18.6
+  c-0.5-2.2-0.9-4.8-0.2-6.9c3.6-11.3-0.2-22.2-1.3-33.3c-1.6-15.3-4.7-30.5-3.5-46.1c1.4-18.5,5.9-36.2,12.9-53.3
+  c4.4-10.7,6.7-22.1,10-33.1c4.1-13.7,8-27.4,10.2-42c4.5,2.7,7,6.6,8.8,10.7c5.1,12,9.3,24.3,11.2,37.4c3,20.9,6.9,41.6,8.5,62.7
+  c0.4,5.1,0.4,10.3-0.1,15.4c-1.5,14.8-0.5,29.5,2.2,44c0.7,3.9,0.8,8-0.3,11.9c-1.4,5.4,1.2,10.5,1.9,15.7
+  c1.2,9.5,3.5,18.8,3.7,28.5C368,294.2,368.2,296.7,368.9,299z"/>
+<path d="M0.2,365c1.1-0.2,1-1.1,1-1.9c-0.5-15.5,2.4-30.8,3.5-46.2c1-15.6,3.1-31.2,4.9-46.8c1.1-9.7,1.2-19.6,1.3-29.4
+  c0.1-21.2,2-42.2,2.4-63.4c0.2-12.9,3.3-25.4,6.5-37.9c2.1-8.1,2.9-16.5,4.5-24.8c2.2-12.1,5.2-24,10.8-35c1.5-3,2.1-6.6,4.8-9.6
+  c5.7,25.9,14.8,50.5,22.3,75.5c2.9,9.8,7.7,19.1,9.2,29.3c1.5,10.8,4.5,21.3,2.2,32.7c-2.3,11.5-1.3,23.5-2.2,35.3
+  c-1,13.3-2.7,26.6-5.1,39.8c-0.4,2-1.5,3.6-2.2,5.4c-3.7,10.1-3.7,21-7.8,31c-0.7,3-1,6-1.8,9c-0.6,12.7-3.3,25.1-5.8,37.6
+  c-1.7,8.7-2.2,17.7-3.2,26.6c-0.4,3.3-0.2,6.8-1.4,9.8c-3.4,9.2,0,18,1.1,26.9c0.7,5.5,0,11.1-1.5,16.2c-1.8,6-2.8,11.9-2.4,18.1
+  c0.3,4.4-0.5,6.9-5.7,8.4c-9.9,2.9-19.8,4.9-30,5.3c-1.9,0.1-3.6-0.4-5.3-1c0-9.3,0-18.7,0-28c0.6-0.7,0.6-1.3,0-2c0-1.7,0-3.3,0-5
+  c0.8-9,0.8-18,0-27c0-2.3,0-4.7,0-7c0.8-3.7,0.8-7.3,0-11c0-2,0-4,0-6c0.9-6.3,0.9-12.7,0-19C0.2,368.9,0.2,367,0.2,365z"/>
+</g>
+</svg>
+
+    </div>
+    <div class="frente5" style="display: none;">
+      <svg version="1.1" class="detalhes_camiseta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="374px" style="margin-left: px;margin-top: 45px;" viewBox="0 0 258 296" enable-background="new 0 0 258 296" xml:space="preserve" 
+      image-rendering="optimizeQuality" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+      <g class="punho" id="punho3" fill="#fff">
+        <path d="M27.973,284.517c0.059-0.999,0.146-2.06,0.317-3.141c-0.315-0.224-0.653-0.435-1.031-0.624
+        c-0.843-0.422-1.889-0.734-2.942-0.889c-1.054-0.156-2.115-0.156-3.573,0c-1.459,0.154-3.315,0.467-4.853,0.601
+        c-1.537,0.132-2.754,0.085-4.533,0.14s-4.12,0.211-6.078,0.57c-1.763,0.322-3.218,0.811-4.64,1.314
+        c-0.033,1.186-0.064,2.314-0.102,3.422c-0.086,2.552-0.206,4.991-0.303,6.51c-0.097,1.521-0.169,2.119,0.093,2.587
+        c0.263,0.466,0.863,0.799,2.06,0.93c1.197,0.13,2.989,0.056,5.428-0.167c2.438-0.224,5.525-0.596,8.201-1.1
+        c2.675-0.504,4.941-1.137,6.431-1.553s2.202-0.617,2.836-0.75c0.632-0.133,1.186-0.199,1.566-0.233
+        c0.379-0.032,0.586-0.032,0.723-0.573c0.137-0.539,0.204-1.619,0.247-2.858C27.863,287.463,27.884,286.063,27.973,284.517z
+        M232.395,280.254c0.56,1.967,0.759,3.992,0.959,5.564c0.201,1.573,0.4,2.693,0.518,3.303c0.115,0.609,0.149,0.71,0.492,0.772
+        c0.344,0.063,0.996,0.091,2.012,0.453c1.018,0.364,2.396,1.063,3.963,1.764c1.565,0.699,3.318,1.399,4.978,1.849
+        c1.66,0.45,3.227,0.65,4.542,0.73c1.316,0.079,2.383,0.039,3.359-0.188s1.862-0.639,2.616-1.236
+        c0.753-0.597,1.372-1.376,1.696-1.829c0.322-0.453,0.35-0.579,0.309-1.543c-0.039-0.962-0.146-2.762-0.199-5.281
+        c-0.029-1.419-0.043-3.067-0.101-4.981c-0.998-0.031-1.937-0.094-2.751-0.22c-1.605-0.249-2.729-0.75-4.555-1.062
+        c-1.826-0.312-4.354-0.438-6.336-0.421c-1.98,0.016-3.416,0.172-4.853,0.187c-1.435,0.016-2.87-0.109-4.244-0.093
+        c-1.053,0.011-2.069,0.106-3.078,0.22C231.967,278.908,232.201,279.578,232.395,280.254z"/>
+      </g>	
+    </svg>
+
+    </div>
+    <div class="frente4" style="display: none;">
+      <img src="polo_masculino - Copia.png" class="imgfrente">
+    </div>
+    <div class="frente3" >
+        <img src="polo_masculino.png" class="imgfrente">
+    </div>
+    <div class="bolso" id="bolsofrente">
+        <img src="polo_masculino_bolso.png" alt="bolso" class="imgbolso">
+    </div>
+</div>
+<div class="costas" id="costas">
+    <div class="costas2">
+      <svg version="1.1" id="molde_polo_verso" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      width="371.92px" height="480px" viewBox="0 0 371.92 480" enable-background="new 0 0 371.92 480" xml:space="preserve">
+     <path fill="#fff" id="corbasecostas" d="M170,0.1c1.7,0,3.3,0,5,0c3.7,0.8,7.3,0.8,11,0c5,0,10,0,15,0c1.2,1,2.6,0.3,3.9,0.5c0.7,0,1.4,0,2.1,0c0.7,0,1.4,0,2.1,0
+     c0.9,0,1.8,0,2.7,0c0.7,0,1.3,0,2,0c0.6,0,1.3,0,1.9,0c0.8-0.1,1.7,0.2,2.4-0.5c0.7,0,1.3,0,2,0c1.2,0.9,2.6,0.6,3.9,0.5
+     c8.2-1,13.6,3.2,17.8,9.5c1.8,2.6,3.4,5.4,4.4,8.4c2.1,6.5,6.5,9.9,12.9,12c16.6,5.4,33.3,10.7,49.7,16.8c2.2,0.8,4.3,1.7,6.5,2.5
+     c3.7,1.4,5.6,4.1,6,7.9c2.4,23.9,3.5,47.8,1.2,71.7c-0.8,8.2-3.7,16-7.3,23.3C299,185,292.9,220,288,255.1c-2.3,16-0.9,32.5,0,48.9
+     c1.1,19.5,4,39,1.3,58.8c-1.1,7.9,1.3,16.2,3.8,23.9c3.1,9.5,5.3,18.9,3.6,28.9c-0.7,4.3,0.3,8.7,1.4,12.8
+     c3.6,12.9-1.9,22.5-11.2,30.4c-13.4,11.3-29.8,15.8-46.8,18.5c-9.7,1.6-19.5,1.4-29.2,2.6c-1.3,0-2.7,0-4,0c-1-0.9-2.2-0.4-3.2-0.5
+     c-0.9,0-1.8,0-2.8,0c-1.3,0.2-2.8-0.5-4,0.5c-5.7,0-11.3,0-17,0c-2-0.8-4-0.8-6,0c-1.3,0-2.7,0-4,0c-0.9-0.9-2.1-0.4-3.2-0.5
+     c-1.3,0.2-2.7-0.5-3.8,0.5c-1.7,0-3.3,0-5,0c-9.2-1.4-18.5-0.8-27.7-2.6c-10.8-2.2-21.6-3.8-31.6-8.9c-6.8-3.4-12.7-7.8-18-13.2
+     C74,448.3,69.8,441,73,431c2.9-9.1,0.5-18.5,0.6-27.8c0.1-4.4,0.6-8.7,2.4-12.7c5.8-12.9,7.9-26,6-40.3
+     c-1.8-13.7,0.2-27.6,0.9-41.4c1.1-23.8,2-47.5-2.8-71.1c-3.1-15-5.7-30.1-9.2-45c-3-12.8-8.4-24.9-12.9-37.3
+     c-8-22.1-13.3-44.6-14.5-68.1c-0.4-8.7-1.1-17.2-0.2-25.9c0.5-5.1,3.1-7.5,7.6-9.2c18.7-7,37.6-13.5,56.7-19.5
+     c7.4-2.3,12.6-6.3,16.2-13c1.8-3.4,4.2-6.4,6.4-9.5c4.7-6.6,10.7-10.2,19-9.6c1.9,0.1,4,0.6,5.9-0.5c2.3,0,4.7,0,7,0
+     c0.6,0.7,1.4,0.5,2.2,0.5c0.6,0,1.2,0,1.8,0c0.6,0,1.2,0,1.8,0C168.6,0.6,169.4,0.8,170,0.1z"/>
+   </svg>
+
+    </div>
+    <div class="costas1">
+      <svg version="1.1" class="detalhes_polo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+      width="371.92px" height="480px" viewBox="0 0 371.92 480" enable-background="new 0 0 371.92 480" xml:space="preserve">
+        <g class="manga" id="manga1" fill="#fff">
+          <path d="M56.9,147.7c-3.2-9.5-6.8-21.3-9.1-34.5c-2.4-13.2-3.3-27.8-3.5-38c-0.2-9.1,0.3-14.5,1-19.5
+          c-2.8,1.6-11.7,7.7-19.8,23c-9.7,18.3-15,29.4-18.3,57.5c0,0-5.2,35.3-5.8,44.8l-1.3,14.3c0,0-1.4,3,3.2,6.2
+          c4.6,3.2,11.9,10.3,41.6,10.9c0,0,23,1.1,23.6-11.1l0.7-13c0,0,0.1-1.4,0.2-1.5c0.1-0.1,0.9-1.1,0.9-1.1c-1.3-4.9-3.2-9.1-5.2-15.2
+          C63.1,164.4,60.1,157.3,56.9,147.7z"/>
+          <path d="M302,190.3l0.4,11.1c0,0,0,5.8,7.9,8.1c7.9,2.3,12.8,2.7,32.6,0.6c19.8-2,28.3-12.8,28.3-12.8
+          s1.2-2.6-0.4-6.2l-2.5-26.2l-7.7-47.3c0,0-4.1-25.9-23.7-51.6c0,0-3.8-6.6-16.2-12.6c-0.6-0.3-1.2-0.6-1.9-0.9c0,0,0,0,0,0
+          c0.5,3.2,1,6.7,1.3,10.8c1,8.9,1.6,20.2,1.9,32.8c0.3,12.6,0.5,26.2-1.6,36.6c-2.1,10.3-5.7,17.2-9.4,25.6
+          c-3.5,8.1-7.2,16.6-10.4,26.2l0,0.5l0.9,2.3L301,190.3z"/>
+        </g>
+        <g class="friso" id="friso1" fill="#fff00000">
+          <path d="M7.6,191.3c6.6,3.1,14.2,5.3,26.7,6.8c12.5,1.6,26.9-1.5,26.9-1.5s5.4-0.9,7.6-5.1l0.2-3.3
+          c-2.1,4.5-7.8,5.5-7.8,5.5s-14.5,3.1-26.9,1.5c-12.5-1.6-20.1-3.7-26.7-6.8c-3.5-1.6-5.4-3.5-6.4-4.8L1,186.1
+          C2,187.5,3.8,189.5,7.6,191.3z"/>
+          <path d="M308.8,196.2c7,2.1,15.5,2.2,23.3,1.9c7.8-0.3,23.1-3.6,25.2-4.9c0,0,9.5-2.8,13-8.1
+          l-0.3-2.6c-3.6,5.1-12.7,7.8-12.7,7.8c-2.1,1.4-17.5,4.6-25.2,4.9c-7.8,0.3-16.3,0.1-23.3-1.9c-3.6-1.1-5.6-2.7-6.8-4.1l0,1l0,0.2
+          l0.1,1.9C302.3,193.6,304.3,195.2,307.8,196.2z"/>
+        </g>
+        <g class="punho" id="punho1" fill="#fff">
+          <path d="M370.3,184.9c-3.4,5.4-13.1,8.3-13.1,8.3c-2.1,1.4-17.5,4.6-25.2,4.9c-7.8,0.3-16.3,0.1-23.3-1.9
+          c-3.6-1.1-5.6-2.7-6.8-4.1l0.4,9.4c0,0,0,5.8,7.9,8.1c7.9,2.4,12.8,2.7,32.7,0.6c19.9-2,28.4-12.8,28.4-12.8s1.2-2.6-0.4-6.2
+          L369.3,184.9z"/>
+          <path d="M69.1,191.2c-2.1,4.5-7.8,5.5-7.8,5.5s-14.5,3.1-26.9,1.5c-12.5-1.6-20.1-3.7-26.7-6.8c-4.2-2-6-4.1-6.9-5.5
+          l-0.8,9.3c0,0-1.4,3,3.2,6.2s12,10.4,41.7,10.9c0,0,23.1,1.1,23.7-11.1L69.1,191.2z"/>
+        </g>
+        <g class="golas_verso">
+          <path class="gola" id="golaEE" fill="#fff" d="M135.8,6.2c0,0-4.6,2.9-12.2,16.7c0,0-3,4.5-6.1,7.4l2.3-0.8c0,0,1.3-1.7,6.4-2.8c5.1-1.1,23.9-1.7,23.9-1.7
+          l28.4-1.1l33.6,0.2l18.6,0.7c0,0,13.8-0.4,17.3,2.6l1.5,1.1l1.2,0.4l-4.2-6.3c0,0-4.8-16.5-16-20.9c0,0-40.6-3.5-88.1,0.2
+          C141.5,1.7,138.7,2.4,134.8,6.2z"/>
+        </g>
+      </svg>
+    </div>
+    
+    <div class="costas5" style="display: none;">
+      <svg version="1.1" id="Cama" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="372px" viewBox="0 0 372 480" style="enable-background:new 0 0 372 480;" xml:space="preserve">
+<g class="manga" fill="#fff">
+	<path d="M0.9,375c1.6-20.8,2.9-41.7,4.9-62.4c1.6-16,3.5-31.9,4.3-48c1.3-23.6,1.2-47.2,3-70.7c0.8-10.9,0-21.9,2.4-32.7
+		c4.4-20.3,8-40.7,12.4-60.9c2.8-12.9,9.2-24.3,15.9-37.2c0.1,2,0.1,2.6,0.1,3.2c-0.2,31.6,5,62.3,16.4,91.9
+		c4.3,11,8.7,22,11.8,33.5c1.9,7.1,3.8,14,0.4,21.2c-0.7,1.4-0.3,3.3-0.3,4.9c0,16.3-1.3,32.5-3.1,48.7c-1.4,12.5-5.9,24.2-8.5,36.3
+		c-2.5,12-6.2,23.7-6.9,36.2c-0.5,9.9-3.3,19.8-4.8,29.7c-1.5,9.8-2.6,19.6-3.9,29.4c-0.2,1.6-0.3,3.3-0.8,4.9
+		c-3.2,8.3-1.4,16.5,0.2,24.8c1.4,7.6,0.9,15.1-1.5,22.5c-2,5.9-2.1,12.1-1.7,18.2c0.2,3.8-1.3,5.7-4.8,6.7
+		c-6.1,1.6-12.4,2.2-18.2,4.8c-6,0-12,0-18,0c0-4.7,0-9.3,0-14c0.8-2,0.8-4,0-6c0-0.3,0-0.7,0-1c1.2-6.8,0.2-13.7,0.5-20.5
+		c0.7-4.7,0.7-9.4,0-14.1c0-7.2,0-14.3,0-21.5C0.8,393.5,0.2,384.2,0.9,375z"/>
+	<path d="M355.9,161.1c1.6,15.6,1.5,31.2,0.4,46.8c-0.6,8.5,0.8,16.8,2.6,25.1c1.3,6.1,1.9,12.2,0.1,18.2c-1.1,3.7,0.8,6.8,1.3,10.1
+		c2.9,17.8,5,35.6,7,53.5c2.6,23.3,4.4,46.7,3.5,70.1c-0.5,14.3-1.3,28.6-0.6,42.9c0.6,13.5,0.4,26.9,1,40.4
+		c0.4,7.9-4,10.1-10.8,9.8c-7.8-0.3-14.6-4.5-21.7-7.5c-1.9-0.8-2.3-2.9-2.5-4.6c-0.9-12.7-5.7-24.8-6-37.6
+		c-0.1-4.6-1.4-9.3-1.1-13.9c1-14.7-4.3-28.4-6.6-42.5c-2-12-4.4-24-7.9-35.6c-2.5-8.1-2-16.7-5.1-24.6c-4-10.1-6.2-20.7-8.2-31.4
+		c-0.4-1.9-0.5-3.5,0.2-5.3c3.1-8.5,1.1-17.1-0.2-25.6c-1.9-11.8-2.8-23.6-4.3-35.4c-2.2-17,4.4-31.9,10.5-47
+		c4.5-11.1,10.3-21.7,12.8-33.6c0.8-4,1.8-7.9,1.8-12c0-10.3-0.1-20.7,0-31c0.1-11.1-1.9-22-2.1-33c0-0.9-0.6-1.8-1.3-3.5
+		c5.7,2.4,10.1,4.1,13,9.9c8.4,16.7,14.8,34,17.8,52.4c1.9,11.9,3.4,23.9,4.6,35.9C355.6,154.9,355,158.1,355.9,161.1z"/>
+</g>
+</svg>
+    </div>
+    <div class="costas4" style="display: none;">
+      <svg version="1.1" class="detalhes_camiseta" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 
+	width="374px" style="margin-left: px;margin-top: 50px;" viewBox="0 0 258 296" enable-background="new 0 0 258 296" xml:space="preserve"
+	image-rendering="optimizeQuality" text-rendering="geometricPrecision" shape-rendering="geometricPrecision">
+
+		<path class="punho" id="punho4" fill="#fff" d="M243.102,284.961c-3.062-0.661-6.635-1.713-10.267-2.811c0.248,1.326,0.386,2.604,0.521,3.672
+		c0.201,1.572,0.399,2.693,0.518,3.303c0.115,0.609,0.148,0.709,0.492,0.771c0.344,0.063,0.996,0.092,2.012,0.453
+		c1.018,0.364,2.396,1.063,3.963,1.765c1.564,0.698,3.318,1.399,4.979,1.849c1.66,0.45,3.227,0.65,4.541,0.73
+		c1.316,0.078,2.384,0.039,3.359-0.188c0.977-0.227,1.862-0.639,2.616-1.235c0.753-0.598,1.372-1.377,1.696-1.83
+		c0.322-0.452,0.35-0.578,0.309-1.543c-0.037-0.933-0.14-2.65-0.193-5.049c-0.486,0.242-1.006,0.465-1.594,0.645
+		c-1.123,0.344-2.496,0.531-4.587,0.5S246.566,285.711,243.102,284.961z M27.575,291.564c0.137-0.539,0.204-1.618,0.247-2.857
+		c0.043-1.239,0.064-2.641,0.153-4.186c0.09-1.547,0.25-3.238,0.683-4.934c0.087-0.34,0.186-0.68,0.291-1.021
+		c-3.163,1.606-6.386,3.181-10.132,4.47c-4.244,1.458-9.159,2.551-12.316,2.97c-3.158,0.418-4.558,0.163-5.959-0.091
+		c-0.086,2.552-0.206,4.991-0.303,6.51c-0.097,1.521-0.169,2.119,0.093,2.587c0.263,0.467,0.863,0.799,2.06,0.93
+		c1.197,0.131,2.989,0.057,5.428-0.166c2.438-0.225,5.525-0.597,8.201-1.101c2.675-0.504,4.941-1.137,6.431-1.553
+		c1.49-0.416,2.202-0.617,2.836-0.75c0.632-0.133,1.186-0.199,1.566-0.233C27.231,292.105,27.439,292.105,27.575,291.564z"/>
+
+</svg>
+    </div>
+    <div class="costas3">
+        <img src="polo_masculino_verso.png" class="imgcostas">
+    </div>
+    <div class="costaslonga" style="display: none;">
+      <img src="polo_masculino_verso - Copia.png" class="imgcostas">
+    </div>
+
+</div>
+<div id="drag" class="drag">
+  <canvas id="list" class="list" width="800px" height="500px"></canvas></div>
+</div>
+
+<div class="switch__container2">
+  Frente
+  <input id="switch-shadow2" class="switch switch--shadow2" type="checkbox">
+  <label for="switch-shadow2"></label>
+  Verso
+</div>
+
+<div class="cores" id="cores">
+  <h2 id="h22">Cores da Base</h2>
+  <div class="divisao1"></div>
+  <div class="optcolors">
+      <form>
+          <div class="cor1"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op1" id="cor1" checked><label for="cor1">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor2"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op2" id="cor2"><label for="cor2">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor3"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op3" id="cor3"><label for="cor3">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor4"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op4" id="cor4"><label for="cor4">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="cor5"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op5" id="cor5"><label for="cor5">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="cor6"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op6" id="cor6"><label for="cor6">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="cor7"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op7" id="cor7"><label for="cor7">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+            <div class="cor8"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op8" id="cor8" checked><label for="cor8">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor9"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op9" id="cor9"><label for="cor9">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor10"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op10" id="cor10"><label for="cor10">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+          <div class="cor11"><INPUT TYPE="radio" NAME="OPCAO" VALUE="op11" id="cor11"><label for="cor11">
+              <span>
+                <img src="check-icn.svg" alt="Checked Icon" />
+              </span>
+            </label></div>
+           
+          </form>
+            <div class="deletebase">
+              <input type="button" class="deletebase" id="deletebase" style="display: none;">
+              <label for="deletebase" id="deletebaselabel"><svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='595.275px' height='595.275px' viewBox='200 215 230 470' style="width:20px;height:20px"><circle style='fill:#F44336;' cx='299.76' cy='439.067' r='218.516'/><rect x='267.162' y='307.978' transform='matrix(0.7071 -0.7071 0.7071 0.7071 -222.6202 340.6915)' style='fill:white;' width='65.545' height='262.18'/><rect x='266.988' y='308.153' transform='matrix(0.7071 0.7071 -0.7071 0.7071 398.3889 -83.3116)' style='fill:white;' width='65.544' height='262.179'/></svg></label>
+            </div>
+  </div>
+
+</div>
+<input type="file"  accept="image/*" name="image" id="uploader" style="display: none;">
+  <label for="uploader" class="uploader" style="cursor: pointer;">Enviar Imagem</label>
+
+</div>
+<div class="botaoacabamentos">
+  <input type="button" class="botaoacabamento" id="botaoacabamento" style="display: none;">
+  <label for="botaoacabamento" id="btnacabalabel"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" style="width: 40px; height:40px">
+ <polygon style="fill:#FF9D49;" points="393.29,213.665 142.441,464.524 87.044,424.954 345.817,150.364 "/>
+ <polygon style="fill:#FFCC75;" points="353.73,158.277 87.044,424.954 47.473,369.557 298.333,118.708 "/>
+ <polygon style="fill:#BD1515;" points="512,94.965 440.78,166.185 377.475,118.708 464.522,47.486 "/>
+ <polygon style="fill:#F2484B;" points="464.516,47.482 385.382,126.615 345.817,71.224 417.038,0.002 "/>
+ <g>
+   
+     <rect x="335.974" y="75.292" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 731.5841 -18.1559)" style="fill:#082947;" width="67.157" height="134.292"/>
+   <polygon style="fill:#082947;" points="71.22,488.261 0,511.998 23.736,440.776 63.305,448.692 	"/>
+ </g>
+ <polygon style="fill:#dfd2b1;" points="47.473,369.557 23.736,440.776 71.22,488.261 142.441,464.524 "/>
+ </svg>
+ </label></div>
+
+<div class="botaocores" id="botaocores">
+  <input type="button" class="botaocor" id="botaocor" style="display:none ;"><label for="botaocor" id="btncor"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresbotoes">
+  <input type="button" class="botaocorbotoes" id="botaocorbotoes" style="display:none ;"><label for="botaocorbotoes" id="btncorbtn"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresgola">
+  <input type="button" class="botaocorgola" id="botaocorgola" style="display:none ;"><label for="botaocorgola" id="btncorgola"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorescarcela">
+  <input type="button" class="botaocorcarcela" id="botaocorcarcela" style="display:none ;"><label for="botaocorcarcela" id="btncorcarcela"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresvista">
+  <input type="button" class="botaocorvista" id="botaocorvista" style="display:none ;"><label for="botaocorvista" id="btncorvista"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespunho">
+  <input type="button" class="botaocorpunho" id="botaocorpunho" style="display:none ;"><label for="botaocorpunho" id="btncorpunho"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespeitilho1">
+  <input type="button" class="botaocorpeitilho1" id="botaocorpeitilho1" style="display:none ;"><label for="botaocorpeitilho1" id="btncorpeitilho1"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocorespeitilho2">
+  <input type="button" class="botaocorpeitilho2" id="botaocorpeitilho2" style="display:none ;"><label for="botaocorpeitilho2" id="btncorpeitilho2"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+<div class="botaocoresfriso">
+  <input type="button" class="botaocorfriso" id="botaocorfriso" style="display:none ;"><label for="botaocorfriso" id="btncorfriso"><svg xmlns="http://www.w3.org/2000/svg" width="288" height="288" viewBox="0 0 64 64" style="width: 40px;height:40px"><path fill="#00b76c" d="m23 23.6-9.1-9.1C9 19.4 6 26.2 6 33.7h12.8c0-4 1.6-7.5 4.2-10.1z" class="color00b76c svgShape"/><path fill="#00a05b" d="M16.2 33.7h2.6c0-3.9 1.6-7.5 4.2-10l-1.2-1.2c-3.4 2.5-5.6 6.6-5.6 11.2z" class="color00a05b svgShape"/><path fill="#546f7a" d="M18.8 33.7H6c0 7.5 3 14.2 7.9 19.1l9.1-9.1c-2.6-2.6-4.2-6.1-4.2-10z" class="color546f7a svgShape"/><path fill="#475d63" d="M16.2 33.7c0 4.6 2.2 8.6 5.6 11.2l1.2-1.2c-2.6-2.6-4.2-6.1-4.2-10h-2.6z" class="color475d63 svgShape"/><path fill="#3d4ff9" d="m23 43.7-9.1 9.1c4.9 4.9 11.6 7.9 19.1 7.9V47.8c-3.9 0-7.5-1.6-10-4.1z" class="color3d4ff9 svgShape"/><path fill="#3046c1" d="M30.3 47.7h.7c-3.1-.4-5.9-1.9-8-4l-1.2 1.2c2.4 1.7 5.3 2.8 8.5 2.8z" class="color3046c1 svgShape"/><path fill="#39a4fa" d="M33 47.8v12.8c7.5 0 14.2-3 19.1-7.9l-9.1-9c-2.5 2.5-6.1 4.1-10 4.1z" class="color39a4fa svgShape"/><path fill="#0091e2" d="M33 60.5v.1c7.5 0 14.2-3 19.1-7.9l-1.4-1.4C46.3 56.4 40 59.8 33 60.5z" class="color0091e2 svgShape"/><path fill="#8b41f7" d="M47.2 33.7c0 3.9-1.6 7.5-4.2 10l9.1 9.1C57 47.9 60 41.1 60 33.7H47.2z" class="color8b41f7 svgShape"/><path fill="#7539d3" d="M57.3 33.7c0 6.8-2.5 12.9-6.6 17.7l1.4 1.4C57 47.9 60 41.1 60 33.7h-2.7z" class="color7539d3 svgShape"/><path fill="#ff434d" d="M47.2 33.7H60c0-7.5-3-14.2-7.9-19.1l-9.1 9c2.6 2.6 4.2 6.1 4.2 10.1z" class="colorff434d svgShape"/><path fill="#dd3646" d="M57.3 33.7H60c0-7.5-3-14.2-7.9-19.1L50.7 16c4.1 4.7 6.6 10.9 6.6 17.7z" class="colordd3646 svgShape"/><path fill="#ff6137" d="m43 23.6 9.1-9.1C47.2 9.7 40.5 6.7 33 6.7v12.8c3.9 0 7.5 1.6 10 4.1z" class="colorff6137 svgShape"/><path fill="#e04f32" d="m50.7 16 1.4-1.4C47.2 9.7 40.5 6.7 33 6.7v.1c7 .7 13.3 4.1 17.7 9.2z" class="colore04f32 svgShape"/><path fill="#ffd039" d="M33 19.5V6.7c-7.5 0-14.2 3-19.1 7.9l9.1 9.1c2.5-2.6 6.1-4.2 10-4.2z" class="colorffd039 svgShape"/><path fill="#ffae47" d="M30.3 19.6c-3.2 0-6.1 1.1-8.5 2.8l1.2 1.2c2.1-2.1 4.9-3.6 8-4h-.7z" class="colorffae47 svgShape"/></svg></label></input>
+</div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/4.5.0/fabric.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="main.js"></script>
+<link rel="stylesheet" href="style.css">
+</html>
