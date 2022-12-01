@@ -443,10 +443,10 @@ border-bottom:1px solid #919191;
 
     .social_masculino{ 
         position: absolute;
-        padding-left:40px;
+        padding-left:10px;
         padding-right: 30px;
         padding-bottom: 30px;
-        padding-top: 40px;
+        padding-top: 75px;
         width: 380px;        
         height: 510px;
     }
@@ -471,14 +471,14 @@ border-bottom:1px solid #919191;
     }
     .frente1,.frente2,.frente3,.frente4,.frente5,.frente6,.costas1,.costas2,.costas3,.costaslonga,.costas4,.costas5,svg,.imgbolso, .imgfrente, .imgcostas, .bolso{
         position: absolute;
-        width: 360px;
-        height: 470px;
+    width: 300px;
+    height: 392px;
     }
 
     .switch__container2{
         display: flex;
         position: absolute;
-        left:145px;
+        left:90px;
         margin-top:540px;
         vertical-align: baseline;
         z-index: 13;
@@ -512,9 +512,9 @@ border-bottom:1px solid #919191;
     }
     .cores,.coresb,.coresGE, .coresGI,.coresP, .coresVE, .coresVD,.coresBF,.coresBB{
             visibility: hidden;
-            width: 300px;
-            height: 500px;
-            left:115px;
+             width: 200px;
+    height: 450px;
+    left: 110px;
             z-index: 22;
     }
 
@@ -556,8 +556,8 @@ border-bottom:1px solid #919191;
     }
 
     .acabamentos{
-    width: 300px;
-    height: 550px;
+    width: 200px;
+    height: 525px;
     z-index: 23;
     left: -10px;
     }
