@@ -1,6 +1,6 @@
 document.getElementById('base').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-  document.getElementById("h22").innerHTML = "Cores da Base";
+  document.getElementById("h22").innerHTML = "Base";
   document.getElementById('cores').style.visibility = "visible";
   document.getElementById('acabamentos').style.display = "none";
   document.getElementById('deletebaselabel').style.display = "block";
@@ -10,7 +10,7 @@ else{document.getElementById("h22").innerHTML = "Cores da Base";}
 
 document.getElementById('gola1').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-  document.getElementById("h22").innerHTML = "Cores da Gola Externa";
+  document.getElementById("h22").innerHTML = "Gola Externa";
   document.getElementById('cores').style.visibility = "visible";
   document.getElementById('acabamentos').style.display = "none";
   document.getElementById('deletebaselabel').style.display = "block";}
@@ -20,7 +20,7 @@ document.getElementById('gola1').addEventListener('click',function(e){
 });
 document.getElementById('punho').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores do Punho";
+      document.getElementById("h22").innerHTML = "Punho";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
@@ -30,7 +30,7 @@ document.getElementById('punho').addEventListener('click',function(e){
 });
 document.getElementById('vista').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores da Manga";
+      document.getElementById("h22").innerHTML = "Manga";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
@@ -40,7 +40,7 @@ document.getElementById('vista').addEventListener('click',function(e){
 });
 document.getElementById('botoes').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores dos Botões";
+      document.getElementById("h22").innerHTML = "Botões";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
@@ -50,7 +50,7 @@ document.getElementById('botoes').addEventListener('click',function(e){
 });
 document.getElementById('gola2').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores da Gola Interna";
+      document.getElementById("h22").innerHTML = "Gola Interna";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
@@ -60,7 +60,7 @@ document.getElementById('gola2').addEventListener('click',function(e){
 });
 document.getElementById('vista1').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores da Carcela 1";
+      document.getElementById("h22").innerHTML = "Carcela 1";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
@@ -70,7 +70,7 @@ document.getElementById('vista1').addEventListener('click',function(e){
 });
 document.getElementById('bolsobtn').addEventListener('click',function(e){
   if(window.innerWidth <= 768){
-      document.getElementById("h22").innerHTML = "Cores da Carcela 2";
+      document.getElementById("h22").innerHTML = "Carcela 2";
       document.getElementById('cores').style.visibility = "visible";
       document.getElementById('acabamentos').style.display = "none";
       document.getElementById('deletebaselabel').style.display = "block";}
